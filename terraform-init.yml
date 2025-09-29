@@ -9,7 +9,7 @@ jobs:
           provider: 'azurerm'
           command: 'init'
           workingDirectory: '$(System.DefaultWorkingDirectory)/env/dev'
-          backendServiceArm: 'todo-connection'
+          backendServiceArm: 'todo-service-token'
           backendAzureRmResourceGroupName: 'todorgprad2'
           backendAzureRmStorageAccountName: 'todoconprad2'
           backendAzureRmContainerName: 'todoconprad2'
